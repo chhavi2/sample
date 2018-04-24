@@ -1,0 +1,53 @@
+{
+      "details": {
+        "name": "Survey Name here.",
+        "desc": "Survey Description here.",
+        "type": "survey"
+      },
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "data": {
+            "options": [
+              {
+                "label": "MCQ Option 1",
+                "value": 0
+              },
+              {
+                "label": "MCQ Option 2",
+                "value": 1
+              }
+            ],
+            "question": "MCQ Question 1"
+          }
+        },
+        {
+          "type": "Checkbox",
+          "data": {
+            "options": [
+              {
+                "label": "Checkbox Option 1",
+                "value": 0
+              },
+              {
+                "label": "Checkbox Option 1",
+                "value": 1
+              }
+            ],
+            "question": "Checkbox Question"
+          }
+        },
+        {
+          "type": "Text Input",
+          "data": {
+            "question": "Text Input Question"
+          }
+        },
+        {
+          "type": "Rating",
+          "data": {
+            "question": "Rating Question"
+          }
+        }
+      ]
+    }
